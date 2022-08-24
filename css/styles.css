@@ -1,8 +1,12 @@
+/* ESTILOS DEL BODY */
+
 body{
     background-color: #F3F3F3;
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
+
+/* ESTILOS DEL HEADER */
 
 h1{
     margin: 0%;
@@ -28,19 +32,23 @@ p{
     padding: 28px 28px 26px;   
 }
 
+/* ESTILOS DEL MAIN */
+
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .dimensionArt{
+    height: 527px;
+    margin-right: 30px;
+    margin-top: 30px;
     position: relative;
     width: 300px;
-    height: 527px;
 }
 
 .corazon{
@@ -93,6 +101,8 @@ h2{
     text-decoration: none;
     top: 268px;
 }
+
+/* ESTILOS DEL FOOTER */
 
 footer{
     background-color: #00669F;
