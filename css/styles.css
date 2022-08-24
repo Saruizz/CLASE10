@@ -1,0 +1,103 @@
+body{
+    background-color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+h1{
+    margin: 0%;
+}
+
+p{
+    margin: 0%;
+}
+
+.seccion1Header{
+    background-color: #1CD1B0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 27px;
+}
+
+.seccion2Header{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    font-size: 40px;
+    margin-bottom: 154px;
+    padding: 28px 28px 26px;   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dimensionArt{
+    position: relative;
+    width: 300px;
+    height: 527px;
+}
+
+.corazon{
+    left: 21px;
+    position: absolute;
+    top: 15.87px;
+    z-index: 10;
+}
+
+.fondoPerfil{
+    position: absolute;
+}
+
+.fotoPerfil{
+    border-radius:150px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    z-index: 5;
+}
+
+.seccionesDeArt{
+    position: absolute;
+    top: 193px;
+    background-color: #E5E5E5;
+    height: 336px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 73px;
+    text-align: center;
+}
+
+.p-Art{
+    margin: 10px 17px 0px 16px;
+}
+
+.a-Art{
+    background-color: #00669F;
+    bottom: 18.48px;
+    color: #F3F3F3;
+    left: 85px;
+    padding: 15px 37px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 268px;
+}
+
+footer{
+    background-color: #00669F;
+    color:#FFF9F9;
+    font-size: 16px;
+    margin-top: 151px;
+    padding: 16px;
+}
